@@ -1,0 +1,3 @@
+This is the filter and master script for my preprocessing code.
+
+It contains, most importantly, an implementation of the xESMF regridding package originating in GCpy but customized for satellite data rather than model-focused purposes. The key difference fromthe L2L_regridder in GCpy is that I allow for the use of regridding algorithms asie from 'conservative' (the only option in GCpy.L2L_regridder). This code accepts the following ESMF regridding methods: bilinear, conservative, conservative_normed, patch, nearest_s2d, nearest_d2s. See https://xesmf.readthedocs.io/en/stable/notebooks/Compare_algorithms.html for details.
