@@ -1,7 +1,7 @@
 # CrIS_Tools
 This is a repository where I store the custom code I've written for handling the CrIS outputs. It contains several different subpackages
 
-# CrIS_Filter_Tools
+# CHEEREIO Pre-processing Tools
 This contains the custom CrIS Filtering tool I built originally for use pre-processing the CrIS-Ethane files for CHEEREIO. It is written to be generally applicable to the various different ROCRv2 species (ethane, HCN, methanol, ethene, ethyne, etc.).
 
 The code written contains a custom implementation of the xESMF regridder based upon that present in the GEOS-Chem GCpy python package. Where GCpy's regridder requires the use of a 'conservative' regridding algorithm, mine allows for customization, something necessary when dealing with the large amount of missing data.
